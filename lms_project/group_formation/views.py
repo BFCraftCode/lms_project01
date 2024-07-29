@@ -24,4 +24,3 @@ def index(request):
         return render(request, 'group_formation/index.html', {'groupes': groupes})
 
     return render(request, 'group_formation/index.html', {'groupes': None})
-
